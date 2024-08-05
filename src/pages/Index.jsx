@@ -41,7 +41,7 @@ const Index = () => {
               placeholder="Add a new todo"
               className="flex-grow mr-2"
             />
-            <Button onClick={addTodo}>Add</Button>
+            <Button onClick={addTodo} className="bg-blue-500 hover:bg-blue-600 text-white">Add</Button>
           </div>
           <ul className="space-y-2">
             {todos.map((todo) => (
